@@ -1,5 +1,8 @@
 # RXSwift 여행기
+![RxSwift_Logo](https://user-images.githubusercontent.com/70905219/141748352-44e4fe18-7636-4337-b865-c9327a1f74e3.png)
+<br />
 우짱의 RxSwift 공부 기록
+
 
 # 목표
 
