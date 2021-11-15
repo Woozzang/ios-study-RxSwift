@@ -1,7 +1,9 @@
 # RXSwift 여행기
-![RxSwift_Logo](https://user-images.githubusercontent.com/70905219/141748352-44e4fe18-7636-4337-b865-c9327a1f74e3.png)
+<img src= "https://user-images.githubusercontent.com/70905219/141748352-44e4fe18-7636-4337-b865-c9327a1f74e3.png" width= 25%>
 <br />
+
 우짱의 RxSwift 공부 기록
+* 서브 페이지는 저작권 문제로 공개하지 않습니다. 읽어보고 싶으신 분은 woozzaang@gmail.com 으로 연락 주세요!
 
 
 # 목표
@@ -14,7 +16,7 @@
 
 # 개요
 
-ReativeX 라이브러리를 Swift 언어
+Swift 로 구현한 ReativeX 라이브러리
 
 RxSwift 깃허브에 장점이 나와있다
 
