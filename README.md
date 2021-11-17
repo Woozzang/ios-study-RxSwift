@@ -71,9 +71,15 @@ Observable 인 동시에 Obsever 인 객체
 # Filtering Opeators
 
 [ignoreElements & elementAt](https://www.notion.so/ignoreElements-elementAt-c8cdb29138da42f6ae66085713087665)
+
 [filter Operator](https://www.notion.so/filter-Operator-869e080526764d54b89c263983058673)
+
 [skip, skipWhile, skipUntil](https://www.notion.so/skip-skipWhile-skipUntil-f487ff5a9a8949f980fd3fb1512044cc)
+
 [take, takeWhile, takeUntil, takeLast](https://www.notion.so/take-takeWhile-takeUntil-takeLast-7147eabdd6ae4904bc0dd88dacd6eba9)
+
 [single](https://www.notion.so/single-9b833e32b6d642ff8d96c12939663d12)
+
 [distinctUntilChange](https://www.notion.so/distinctUntilChange-40cf74acc0834eb3bad73e6f42b4af5d)
+
 [🌟 debounce, throttle](https://www.notion.so/debounce-throttle-ca3df4864d654f6c9aa2e7d6f925a3dd)
