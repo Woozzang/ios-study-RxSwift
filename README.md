@@ -28,7 +28,7 @@ RxSwift 깃허브에 장점이 나와있다
 
 [Reative Programming](https://www.notion.so/Reative-Programming-0b94307622924a0e98626d0ff6d9cfe1)
 
-[MVVM에 대한 이해](https://www.notion.so/MVVM-7fb2a2a7886e41b3ba8ca5bdf2738bfa)
+[MVVM 과 RxSwift가 관련이 있나요?](https://www.notion.so/MVVM-7fb2a2a7886e41b3ba8ca5bdf2738bfa)
 
 [Observables](https://www.notion.so/Observables-fcd8997df6fc427190819cc0cdc1d555)
 
@@ -96,3 +96,33 @@ Observable 인 동시에 Obsever 인 객체
 [CombineLatest](https://www.notion.so/CombineLatest-8c80966dddba4f83bfd0928066c11b10)
 
 [zip](https://www.notion.so/zip-608f318082bc481db14c7f817cce31d3)
+
+[sample](https://www.notion.so/sample-1f519d37ccac4227904e203f3cde7830)
+
+[switchLatest](https://www.notion.so/switchLatest-ebaf24aa81324c4f8e226b831f472caf)
+
+[reduce](https://www.notion.so/reduce-65978624b489432c8252c02efcd14ca3)
+
+# Conditional Operator
+
+[Amb](https://www.notion.so/Amb-d4f69ea843944590bde81532150485ba)
+
+# Time-based Operators
+
+[interval](https://www.notion.so/interval-2f8bfb6638c8477986a81bdbda5fdf82)
+
+[timer](https://www.notion.so/timer-4f90cd774b07436187f5b5d1e1a73f6a)
+
+[timeout](https://www.notion.so/timeout-453ab9e50e0b4e4096b38b2c6311e1bc)
+
+[delay, delaySubscription](https://www.notion.so/delay-delaySubscription-bf44125dde1e4be18de35a3d8cc7e188)
+
+# Sharing Subscription
+
+[Sharing Subscription](https://www.notion.so/Sharing-Subscription-11c39c277bff480f931943e53049d31a)
+
+[multicast](https://www.notion.so/multicast-c9884643a21847f2b9338ba21ab2fa36)
+
+[publish](https://www.notion.so/publish-b29c49163e594231ac2a2468ad036dee)
+
+[replay](https://www.notion.so/replay-5d9cc4243aa84c1e8490b27a47dc097c)
