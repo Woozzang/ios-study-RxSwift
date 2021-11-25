@@ -126,3 +126,15 @@ Observable 인 동시에 Obsever 인 객체
 [publish](https://www.notion.so/publish-b29c49163e594231ac2a2468ad036dee)
 
 [replay](https://www.notion.so/replay-5d9cc4243aa84c1e8490b27a47dc097c)
+
+[refCount](https://www.notion.so/refCount-52c181c624bb40bea059fb97aed632d6)
+
+# Scheduler
+
+[scheduler](https://www.notion.so/scheduler-12aabf47f974449d8364d9b758c6bd17)
+
+# Error Handling
+
+[catchError, catchErrorJustReturn](https://www.notion.so/catchError-catchErrorJustReturn-a0746bfc7b524e42a47017553b4094ed)
+
+[retry](https://www.notion.so/retry-ea20fdb2139746fcafd1bc9c531af584)
