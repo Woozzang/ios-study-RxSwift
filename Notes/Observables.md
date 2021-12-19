@@ -11,13 +11,6 @@
 - Observable 을 만드는 두 가지 방법을 이해한다
 - Observable 을 사용하는 방법을 이해한다
 
-## 인덱스 📇
-
-- **[옵저버블이 뭔가요?](https://www.notion.so/Observables-fcd8997df6fc427190819cc0cdc1d555)**
-    - [이벤트는 열거형](https://www.notion.so/Observables-fcd8997df6fc427190819cc0cdc1d555)
-- **[옵저버블을 만드는 방법](https://www.notion.so/Observables-fcd8997df6fc427190819cc0cdc1d555)**
-- [옵저버블 구독하기](https://www.notion.so/Observables-fcd8997df6fc427190819cc0cdc1d555)
-
 ## 옵저버블이 뭔가요?
 
 Rx 의 심장 💗
@@ -28,7 +21,7 @@ Rx 의 심장 💗
 
 Observable, Observable sequence, Sequence 는 모두 옵저버블을 가리키는 말
 
-- 시퀀스인데 비동기 시퀀스이다.
+- 비동기 시퀀스이다.
 - 시퀀스는 일정 기간 (유한 ~ 무한) 동안 이벤트를 생산한다.
 - 이것을 이벤트를 방출한다고 표현한다.
 - 옵저버블은 옵저버가 구독한다.
