@@ -4,6 +4,7 @@
 
 우짱의 RxSwift 공부 내용을 노션에 남겨놓았어요 📝
 * 서브 페이지는 저작권 문제로 우선 공개하지 않습니다.
+  * 2021/12/20 - 하나씩 공개하고 있습니다! (체크마크로 표시된 문서)
 * 내재화 시킨후 여러 레퍼런스를 종합해서 공개하겠습니다.
 * 읽어보고 싶으신 분은 woozzaang@gmail.com 으로 연락 주세요 📧
 
@@ -20,17 +21,13 @@
 
 Swift 로 구현한 ReativeX 라이브러리
 
-RxSwift 깃허브에 장점이 나와있다
-
-- [x]  읽어보기
-
 단순하고 직관적인 코드를 작성할 수 있다
 
 [Reative Programming](https://www.notion.so/Reative-Programming-0b94307622924a0e98626d0ff6d9cfe1)
 
 [MVVM 과 RxSwift가 관련이 있나요?](https://www.notion.so/MVVM-7fb2a2a7886e41b3ba8ca5bdf2738bfa)
 
-[Observables](https://www.notion.so/Observables-fcd8997df6fc427190819cc0cdc1d555)
+- [x] [Observables](https://github.com/Woozzang/ios-study-RxSwift/blob/main/Notes/Observables.md)
 
 [Disposables](https://www.notion.so/Disposables-fb22bc9ab4414883a39e0a4c2b163c75)
 
