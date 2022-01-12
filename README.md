@@ -88,7 +88,7 @@ Observable 인 동시에 Obsever 인 객체
 
 [concat](https://www.notion.so/concat-d437af5abcf5464eb1689e228c4e3687)
 
-[merge](https://www.notion.so/merge-dd663463585d46d59c7a7a41fcf90612)
+- [x] [merge](https://www.notion.so/merge-dd663463585d46d59c7a7a41fcf90612)
 
 [CombineLatest](https://www.notion.so/CombineLatest-8c80966dddba4f83bfd0928066c11b10)
 
