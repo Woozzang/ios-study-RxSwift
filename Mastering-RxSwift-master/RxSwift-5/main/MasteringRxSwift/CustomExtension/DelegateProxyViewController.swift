@@ -37,6 +37,19 @@ class DelegateProxyViewController: UIViewController {
    override func viewDidLoad() {
       super.viewDidLoad()
       
+       locationManager.requestWhenInUseAuthorization()
+       locationManager.startUpdatingLocation()
+       
+       locationManager.rx.didUpdateLocations
+           .subscribe(onNext: { locations in
+               print(locations)
+           })
+           .disposed(by: bag)
+       
+       locationManager.rx.didUpdateLocations
+           .map { $0[0] }
+           .bind(to: mapView.rx.center)
+           .disposed(by: bag)
       
    }
 }
@@ -51,4 +64,42 @@ extension Reactive where Base: MKMapView {
    }
 }
 
+/// 1단계
+extension CLLocationManager: HasDelegate {
+    public typealias Delegate = CLLocationManagerDelegate
+}
+
+class RxCLLocationManagerDelegateProxy: DelegateProxy<CLLocationManager, CLLocationManagerDelegate>, DelegateProxyType, CLLocationManagerDelegate {
+    
+    weak private(set) var locationManager: CLLocationManager?
+    
+    init(locationManager: CLLocationManager) {
+        self.locationManager = locationManager
+        super.init(parentObject: locationManager, delegateProxy: RxCLLocationManagerDelegateProxy.self)
+    }
+    
+    static func registerKnownImplementations() {
+        self.register {
+            RxCLLocationManagerDelegateProxy(locationManager: $0)
+        }
+    }
+}
+
+extension Reactive where Base: CLLocationManager {
+    
+    var delegate: DelegateProxy<CLLocationManager, CLLocationManagerDelegate> {
+        /// 생성자를 직접 사용하지 않는다
+        /// 인스턴스가 두개 이상 생성되는 문제가 있다
+        /// 이렇게 되면 예상과 다르게 동작한다
+        return RxCLLocationManagerDelegateProxy.proxy(for: base)
+    }
+    
+    var didUpdateLocations: Observable<[CLLocation]> {
+        return delegate.methodInvoked(#selector(CLLocationManagerDelegate.locationManager(_:didUpdateLocations:)))
+            .map {
+                return $0[1] as! [CLLocation]
+            }
+    }
+    
+}
 
