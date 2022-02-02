@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		930A4ACD27AA63B500A691DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930A4ACC27AA63B500A691DF /* AppDelegate.swift */; };
 		930A4ACF27AA63B500A691DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930A4ACE27AA63B500A691DF /* SceneDelegate.swift */; };
-		930A4AD127AA63B500A691DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930A4AD027AA63B500A691DF /* ViewController.swift */; };
 		930A4AD427AA63B500A691DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930A4AD227AA63B500A691DF /* Main.storyboard */; };
 		930A4AD727AA63B500A691DF /* RxMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 930A4AD527AA63B500A691DF /* RxMemo.xcdatamodeld */; };
 		930A4AD927AA63B600A691DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930A4AD827AA63B600A691DF /* Assets.xcassets */; };
@@ -24,7 +23,6 @@
 		930A4AC927AA63B500A691DF /* RxMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		930A4ACC27AA63B500A691DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		930A4ACE27AA63B500A691DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		930A4AD027AA63B500A691DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		930A4AD327AA63B500A691DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		930A4AD627AA63B500A691DF /* RxMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RxMemo.xcdatamodel; sourceTree = "<group>"; };
 		930A4AD827AA63B600A691DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,16 +80,55 @@
 		930A4ACB27AA63B500A691DF /* RxMemo */ = {
 			isa = PBXGroup;
 			children = (
+				930A4AE727AAB61E00A691DF /* Scene */,
+				930A4AE627AAB60900A691DF /* Service */,
+				930A4AE527AAB5F600A691DF /* ViewModel */,
+				930A4AE427AAB5E000A691DF /* ViewController */,
+				930A4AE327AAB5D200A691DF /* Model */,
 				930A4ACC27AA63B500A691DF /* AppDelegate.swift */,
 				930A4ACE27AA63B500A691DF /* SceneDelegate.swift */,
-				930A4AD027AA63B500A691DF /* ViewController.swift */,
-				930A4AD227AA63B500A691DF /* Main.storyboard */,
 				930A4AD827AA63B600A691DF /* Assets.xcassets */,
-				930A4ADA27AA63B600A691DF /* LaunchScreen.storyboard */,
 				930A4ADD27AA63B600A691DF /* Info.plist */,
 				930A4AD527AA63B500A691DF /* RxMemo.xcdatamodeld */,
 			);
 			path = RxMemo;
+			sourceTree = "<group>";
+		};
+		930A4AE327AAB5D200A691DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		930A4AE427AAB5E000A691DF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				930A4AD227AA63B500A691DF /* Main.storyboard */,
+				930A4ADA27AA63B600A691DF /* LaunchScreen.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		930A4AE527AAB5F600A691DF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		930A4AE627AAB60900A691DF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		930A4AE727AAB61E00A691DF /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				930A4AD127AA63B500A691DF /* ViewController.swift in Sources */,
 				930A4ACD27AA63B500A691DF /* AppDelegate.swift in Sources */,
 				930A4ACF27AA63B500A691DF /* SceneDelegate.swift in Sources */,
 				930A4AD727AA63B500A691DF /* RxMemo.xcdatamodeld in Sources */,
