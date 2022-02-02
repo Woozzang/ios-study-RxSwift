@@ -56,19 +56,64 @@ class CustomControlEventViewController: UIViewController {
             self?.inputField.resignFirstResponder()
          })
          .disposed(by: bag)
+       
+       inputField.rx.editingDidBegin
+           .map { UIColor.red }
+           .subscribe(onNext:{ [weak self] in
+               self?.inputField.layer.borderColor = $0.cgColor
+           })
+           .disposed(by: bag)
+       
+       inputField.rx.editingDidEnd
+           .map { UIColor.gray }
+           .subscribe(onNext: { [weak self] in
+               self?.inputField.layer.borderColor = $0.cgColor
+           })
+           .disposed(by: bag)
       
-      inputField.delegate = self
+//      inputField.delegate = self
    }
 }
 
-extension CustomControlEventViewController: UITextFieldDelegate {
-   func textFieldDidBeginEditing(_ textField: UITextField) {
-      textField.layer.borderColor = UIColor.red.cgColor
-   }
+//extension CustomControlEventViewController: UITextFieldDelegate {
+//   func textFieldDidBeginEditing(_ textField: UITextField) {
+//      textField.layer.borderColor = UIColor.red.cgColor
+//   }
+//
+//   func textFieldDidEndEditing(_ textField: UITextField) {
+//      textField.layer.borderColor = UIColor.gray.cgColor
+//   }
+//}
 
-   func textFieldDidEndEditing(_ textField: UITextField) {
-      textField.layer.borderColor = UIColor.gray.cgColor
-   }
+extension Reactive where Base: UITextField {
+    
+//    var borderColor: Binder<UIColor?> {
+//        Binder<UIColor?>(self.base) { taget, color in
+//            taget.layer.borderColor = color?.cgColor
+//        }
+//    }
+    
+//    var borderColor: Binder<UIColor?> {
+//        Binder(self.base) { textField, color in
+//            textField.layer.borderColor = color?.cgColor
+//        }
+//    }
+    
+    var borderColor: Binder<UIColor?> {
+        Binder(self.base) { textField, color in
+            textField.layer.borderColor = color?.cgColor
+        }
+    }
+    
+    
+    
+    var editingDidBegin: ControlEvent<Void> {
+        return controlEvent(.editingDidBegin)
+    }
+    
+    var editingDidEnd: ControlEvent<Void> {
+        return controlEvent(.editingDidEnd)
+    }
 }
 
 
