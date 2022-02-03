@@ -26,6 +26,8 @@ class MemoStorage: MemoStorageType {
         let memo = Memo(content: content)
         list.insert(memo, at: 0)
         
+        /// 요기가 포인트 👇🏻 서브젝트에 넥스트 이벤트를 전달한다.
+        /// = memoList( ) 를 통해 store 를 구독하고 있는 구독자들에게도 해당 이벤트가 전달될 것이다.
         store.onNext(list)
         
         return Observable.just(memo)
@@ -45,6 +47,7 @@ class MemoStorage: MemoStorageType {
             list.insert(updated, at: index)
         }
         
+        /// 요기가 포인트 👇🏻 서브젝트에 넥스트 이벤트를 전달한다.
         store.onNext(list)
         
         return Observable.just(updated)
@@ -56,6 +59,7 @@ class MemoStorage: MemoStorageType {
             list.remove(at: index)
         }
         
+        /// 요기가 포인트 👇🏻 서브젝트에 넥스트 이벤트를 전달한다.
         store.onNext(list)
         
         return Observable.just(memo)
