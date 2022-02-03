@@ -14,6 +14,8 @@
 		930A4AD927AA63B600A691DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930A4AD827AA63B600A691DF /* Assets.xcassets */; };
 		930A4ADC27AA63B600A691DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930A4ADA27AA63B600A691DF /* LaunchScreen.storyboard */; };
 		930A4AE927AAB7B000A691DF /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930A4AE827AAB7B000A691DF /* Memo.swift */; };
+		930A4AEB27AAB88900A691DF /* MemoStorageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930A4AEA27AAB88900A691DF /* MemoStorageType.swift */; };
+		93752BEC27AC16CF005818AC /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93752BEB27AC16CF005818AC /* MemoryStorage.swift */; };
 		AE7C30C61FAEB4375F8DD968 /* Pods_RxMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EA0FCC15A16FF85A7557C1 /* Pods_RxMemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +32,8 @@
 		930A4ADB27AA63B600A691DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		930A4ADD27AA63B600A691DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		930A4AE827AAB7B000A691DF /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		930A4AEA27AAB88900A691DF /* MemoStorageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStorageType.swift; sourceTree = "<group>"; };
+		93752BEB27AC16CF005818AC /* MemoryStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +95,6 @@
 				930A4ACE27AA63B500A691DF /* SceneDelegate.swift */,
 				930A4AD827AA63B600A691DF /* Assets.xcassets */,
 				930A4ADD27AA63B600A691DF /* Info.plist */,
-				930A4AD527AA63B500A691DF /* RxMemo.xcdatamodeld */,
 			);
 			path = RxMemo;
 			sourceTree = "<group>";
@@ -123,6 +126,9 @@
 		930A4AE627AAB60900A691DF /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				930A4AEA27AAB88900A691DF /* MemoStorageType.swift */,
+				93752BEA27AC16B1005818AC /* CoreDataStorage */,
+				93752BE827AC1698005818AC /* MemoryStorage */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -132,6 +138,22 @@
 			children = (
 			);
 			path = Scene;
+			sourceTree = "<group>";
+		};
+		93752BE827AC1698005818AC /* MemoryStorage */ = {
+			isa = PBXGroup;
+			children = (
+				93752BEB27AC16CF005818AC /* MemoryStorage.swift */,
+			);
+			path = MemoryStorage;
+			sourceTree = "<group>";
+		};
+		93752BEA27AC16B1005818AC /* CoreDataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				930A4AD527AA63B500A691DF /* RxMemo.xcdatamodeld */,
+			);
+			path = CoreDataStorage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93752BEC27AC16CF005818AC /* MemoryStorage.swift in Sources */,
 				930A4ACD27AA63B500A691DF /* AppDelegate.swift in Sources */,
+				930A4AEB27AAB88900A691DF /* MemoStorageType.swift in Sources */,
 				930A4ACF27AA63B500A691DF /* SceneDelegate.swift in Sources */,
 				930A4AD727AA63B500A691DF /* RxMemo.xcdatamodeld in Sources */,
 				930A4AE927AAB7B000A691DF /* Memo.swift in Sources */,
