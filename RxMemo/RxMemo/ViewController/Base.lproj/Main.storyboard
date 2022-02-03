@@ -24,6 +24,91 @@
             </objects>
             <point key="canvasLocation" x="136" y="139"/>
         </scene>
+        <!--메모 목록-->
+        <scene sceneID="X8X-pz-6HY">
+            <objects>
+                <viewController id="ez4-pi-xxP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="21c-v0-9k9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="P8y-HN-R6D"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="메모 목록" id="iI7-FE-6lK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yh3-EC-KXj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="999" y="826"/>
+        </scene>
+        <!--새 메모-->
+        <scene sceneID="3mZ-wr-ZgD">
+            <objects>
+                <viewController id="d2M-it-Eah" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jhW-Tf-m3l">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="JUA-f5-Rvw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="새 메모" id="ykD-qp-8om"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jgc-Ll-ZkG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2274" y="139"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="UFc-ax-FVW">
+            <objects>
+                <viewController storyboardIdentifier="DetailVC" id="vkT-US-eYq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eIJ-Zc-Re5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="hFE-ZH-E0j"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="ZK2-KZ-lz4"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AfH-ay-fUj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1926" y="826"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pbW-3K-Nf3">
+            <objects>
+                <navigationController storyboardIdentifier="ListNav" automaticallyAdjustsScrollViewInsets="NO" id="8yJ-rU-Jvk" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="vZT-bO-yOI">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ez4-pi-xxP" kind="relationship" relationship="rootViewController" id="aVy-lE-dVz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qwv-Yp-B4t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="826"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="yJ6-zi-rAU">
+            <objects>
+                <navigationController storyboardIdentifier="ComposeNav" automaticallyAdjustsScrollViewInsets="NO" id="hCB-sg-bbj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="LPL-Hg-dVY">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="d2M-it-Eah" kind="relationship" relationship="rootViewController" id="QhK-b8-FMx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OeC-0Y-Zsz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1391" y="139"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
