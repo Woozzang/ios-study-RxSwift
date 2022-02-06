@@ -25,6 +25,7 @@ extension ViewModelBindable where Self: UIViewController {
     
     /// 이렇게 하면 코드가 단순해진다는 장점이 있다고 하는데 일단 계속 진행해보자
     /// bindViewModel() 을 내부에서 호출하고 있긴 하다.
+    /// `mutating` 키워드 쓰면 참조 타입이라도 let 에 담기면 사용하지 못한다;;;; 처음암;;;;
     mutating func bind(viewModel: Self.ViewModelType) {
         
         self.viewModel = viewModel
