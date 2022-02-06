@@ -23,6 +23,8 @@
 		93752BF627AC21B2005818AC /* MemoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93752BF527AC21B2005818AC /* MemoDetailViewModel.swift */; };
 		93752BF827AC21C8005818AC /* MemoComposeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93752BF727AC21C8005818AC /* MemoComposeViewModel.swift */; };
 		93752BFA27AC2207005818AC /* ViewModelBindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93752BF927AC2207005818AC /* ViewModelBindable.swift */; };
+		93752BFC27AC24B6005818AC /* TransitionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93752BFB27AC24B6005818AC /* TransitionModel.swift */; };
+		93752BFE27AC24F9005818AC /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93752BFD27AC24F9005818AC /* Scene.swift */; };
 		AE7C30C61FAEB4375F8DD968 /* Pods_RxMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EA0FCC15A16FF85A7557C1 /* Pods_RxMemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,8 @@
 		93752BF527AC21B2005818AC /* MemoDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailViewModel.swift; sourceTree = "<group>"; };
 		93752BF727AC21C8005818AC /* MemoComposeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoComposeViewModel.swift; sourceTree = "<group>"; };
 		93752BF927AC2207005818AC /* ViewModelBindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBindable.swift; sourceTree = "<group>"; };
+		93752BFB27AC24B6005818AC /* TransitionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionModel.swift; sourceTree = "<group>"; };
+		93752BFD27AC24F9005818AC /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,8 @@
 		930A4AE727AAB61E00A691DF /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				93752BFB27AC24B6005818AC /* TransitionModel.swift */,
+				93752BFD27AC24F9005818AC /* Scene.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -294,6 +300,7 @@
 			files = (
 				93752BEC27AC16CF005818AC /* MemoryStorage.swift in Sources */,
 				93752BF827AC21C8005818AC /* MemoComposeViewModel.swift in Sources */,
+				93752BFE27AC24F9005818AC /* Scene.swift in Sources */,
 				93752BF027AC20F6005818AC /* MemoDetailViewController.swift in Sources */,
 				930A4ACD27AA63B500A691DF /* AppDelegate.swift in Sources */,
 				930A4AEB27AAB88900A691DF /* MemoStorageType.swift in Sources */,
@@ -302,6 +309,7 @@
 				93752BF427AC218A005818AC /* MemoListViewModel.swift in Sources */,
 				93752BF627AC21B2005818AC /* MemoDetailViewModel.swift in Sources */,
 				93752BEE27AC20D4005818AC /* MemoListViewController.swift in Sources */,
+				93752BFC27AC24B6005818AC /* TransitionModel.swift in Sources */,
 				93752BF227AC212B005818AC /* MemoComposeViewController.swift in Sources */,
 				930A4AE927AAB7B000A691DF /* Memo.swift in Sources */,
 				93752BFA27AC2207005818AC /* ViewModelBindable.swift in Sources */,
