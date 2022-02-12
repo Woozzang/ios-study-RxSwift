@@ -4,7 +4,7 @@
 
 우짱의 RxSwift 공부 내용을 노션에 남겨놓았어요 📝
 * 서브 페이지는 저작권 문제로 우선 공개하지 않습니다.
-  * 2021/12/20 - 하나씩 공개하고 있습니다! (체크마크로 표시된 문서)
+  * 2021/12/20 - 하나씩 공개하고 있습니다!
 * 내재화 시킨후 여러 레퍼런스를 종합해서 공개하겠습니다.
 * 읽어보고 싶으신 분은 woozzaang@gmail.com 으로 연락 주세요 📧
 
@@ -79,7 +79,7 @@ Observable 인 동시에 Obsever 인 객체
 
 [distinctUntilChange](https://www.notion.so/distinctUntilChange-40cf74acc0834eb3bad73e6f42b4af5d)
 
-[🌟 debounce, throttle](https://www.notion.so/debounce-throttle-ca3df4864d654f6c9aa2e7d6f925a3dd)
+- [x] [🌟 debounce, throttle](https://www.notion.so/debounce-throttle-ca3df4864d654f6c9aa2e7d6f925a3dd)
 
 
 # Combining Operators
