@@ -3,11 +3,6 @@
 <br />
 
 우짱의 RxSwift 공부 내용을 노션에 남겨놓았어요 📝
-* 서브 페이지는 저작권 문제로 우선 공개하지 않습니다.
-  * 2021/12/20 - 하나씩 공개하고 있습니다!
-* 내재화 시킨후 여러 레퍼런스를 종합해서 공개하겠습니다.
-* 읽어보고 싶으신 분은 woozzaang@gmail.com 으로 연락 주세요 📧
-
 
 # 목표
 
@@ -17,21 +12,15 @@
 
 우아한 Reactive Programming 을 하고 싶어서
 
-# 개요
+# 기초
 
-Swift 로 구현한 ReativeX 라이브러리
+- [MVVM](https://www.notion.so/MVVM-7fb2a2a7886e41b3ba8ca5bdf2738bfa)
 
-단순하고 직관적인 코드를 작성할 수 있다
+- [Observables](https://github.com/Woozzang/ios-study-RxSwift/blob/main/Notes/Observables.md)
 
-[Reative Programming](https://www.notion.so/Reative-Programming-0b94307622924a0e98626d0ff6d9cfe1)
+- [Disposables](https://www.notion.so/Disposables-fb22bc9ab4414883a39e0a4c2b163c75)
 
-[MVVM 과 RxSwift가 관련이 있나요?](https://www.notion.so/MVVM-7fb2a2a7886e41b3ba8ca5bdf2738bfa)
-
-- [x] [Observables](https://github.com/Woozzang/ios-study-RxSwift/blob/main/Notes/Observables.md)
-
-[Disposables](https://www.notion.so/Disposables-fb22bc9ab4414883a39e0a4c2b163c75)
-
-[Operator](https://www.notion.so/Operator-660d0f67e7f04bdeaf0ec4e28a094f48)
+- [Operator](https://www.notion.so/Operator-660d0f67e7f04bdeaf0ec4e28a094f48)
 
 # Subjects
 
