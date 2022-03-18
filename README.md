@@ -2,19 +2,11 @@
 <img src= "https://user-images.githubusercontent.com/70905219/141748352-44e4fe18-7636-4337-b865-c9327a1f74e3.png" width= 25%>
 <br />
 
-우짱의 RxSwift 공부 내용을 노션에 남겨놓았어요 📝
-
-# 목표
-
-더 많은 오픈소스 코드들을 이해하기 위해서
-
-- 이해하고 더 좋은 코드를 만들기 위해서
-
-우아한 Reactive Programming 을 하고 싶어서
+RxSwift 공부 내용을 노션에 정리했어요. 📝
 
 # 기초
 
-- [MVVM](https://www.notion.so/MVVM-7fb2a2a7886e41b3ba8ca5bdf2738bfa)
+- [MVVM](https://marsh-flavor-e1c.notion.site/MVVM-93501d81582b42d1bd94d8f855eee4a6)
 
 - [Observables](https://github.com/Woozzang/ios-study-RxSwift/blob/main/Notes/Observables.md)
 
@@ -23,11 +15,6 @@
 - [Operator](https://www.notion.so/Operator-660d0f67e7f04bdeaf0ec4e28a094f48)
 
 # Subjects
-
-Observable 인 동시에 Obsever 인 객체
-
-- 이벤트를 방출할수 있고, 이벤트를 구독할 수 있다
-- 따라서 onNext() 를 통해 이벤트를 서브젝트에 전달할 수 있음
 
 [Publish Subject](https://www.notion.so/Publish-Subject-28e73236c36247f7bbbefd93b551e7d5)
 
